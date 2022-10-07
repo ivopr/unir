@@ -1,0 +1,3 @@
+C:/Users/ivopr/Desktop/git/unir/cg/aula-1/atv-5/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ivopr/Desktop/git/unir/cg/aula-1/atv-5/cmake-build-debug/CMakeFiles/perspectivecube.dir
+C:/Users/ivopr/Desktop/git/unir/cg/aula-1/atv-5/cmake-build-debug/CMakeFiles/rebuild_cache.dir

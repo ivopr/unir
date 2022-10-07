@@ -1,0 +1,14 @@
+{
+	"actions": "Actions",
+	"report": "Relatório",
+	"modal": {
+		"address": "Address",
+		"cnpj": "CNPJ",
+		"email": "Email",
+		"name": "Name",
+		"phone": "Phone",
+		"role": "Role",
+		"title": "Edit Account"
+	},
+	"title": "Accounts"
+}

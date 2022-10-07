@@ -1,0 +1,17 @@
+{
+	"fields": {
+		"email": "Email",
+		"name": "Nome",
+		"password": "Senha",
+		"role": "Cargo",
+		"role-check": "Confirmação para o Cargo",
+		"cnpj": "CNPJ",
+		"address": "Endereço",
+		"phone": "Telefone"
+	},
+	"is-registered": "Já possui uma conta?",
+	"login": "Entrar",
+	"or-with": "ou com",
+	"title": "Cadastrar",
+	"with-google": "Cadastrar com Google"
+}

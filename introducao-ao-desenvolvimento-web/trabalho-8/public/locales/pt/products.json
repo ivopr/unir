@@ -1,0 +1,13 @@
+{
+	"actions": "Ações",
+	"report": "Relatório",
+	"title": "Produtos",
+	"modal": {
+		"title": "Editar Produto",
+		"name": "Nome",
+		"price": "Preço",
+		"quantity": "Quantidade",
+		"type": "Tipo",
+		"provider": "Fornecedor"
+	}
+}

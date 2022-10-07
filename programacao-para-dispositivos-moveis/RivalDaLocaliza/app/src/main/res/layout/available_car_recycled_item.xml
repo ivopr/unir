@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/shape_background_item"
+    android:elevation="6dp"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/recycled_car_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Grupo A - Compacto"
+        android:textColor="@color/purple_600"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/recycled_car_model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Fiat Uno"
+        android:textColor="@color/purple_900"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/recycled_car_image"
+        app:layout_constraintStart_toStartOf="@+id/recycled_car_image"
+        app:layout_constraintTop_toBottomOf="@+id/recycled_car_image" />
+
+    <ImageView
+        android:id="@+id/recycled_car_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recycled_car_category"
+        app:srcCompat="@drawable/fiat_uno_2" />
+
+    <TextView
+        android:id="@+id/recycled_car_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Carro pequeno e economico"
+        android:textAlignment="center"
+        android:textColor="@color/gray_600"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/recycled_car_image"
+        app:layout_constraintStart_toStartOf="@+id/recycled_car_image"
+        app:layout_constraintTop_toBottomOf="@+id/recycled_car_model" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

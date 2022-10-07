@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1605469242 source:/home/ivo/ed2/praticas/2nd/5th/main.c
+	"arquivo.h"
+
+1604884158 /home/ivo/ed2/praticas/2nd/5th/arquivo.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

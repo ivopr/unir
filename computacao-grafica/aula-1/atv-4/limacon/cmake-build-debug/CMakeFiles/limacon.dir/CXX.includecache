@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/ivopr/Desktop/git/unir/cg/aula-1/atv-4/limacon/main.cpp
+cmath
+-
+GL/glut.h
+-
+

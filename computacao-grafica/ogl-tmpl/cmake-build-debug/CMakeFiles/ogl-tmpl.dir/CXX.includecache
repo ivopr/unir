@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../includes/tga_load.h
+
+/home/ivo/unir/cg/ogl-tmpl/src/cpp/main.cpp
+GL/glew.h
+-
+GL/freeglut.h
+-
+tga_load.h
+/home/ivo/unir/cg/ogl-tmpl/src/cpp/tga_load.h
+

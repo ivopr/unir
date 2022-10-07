@@ -1,0 +1,14 @@
+{
+	"fields": {
+		"email": "Email",
+		"name": "Name",
+		"password": "Password",
+		"role": "Role",
+		"role-check": "Role Check"
+	},
+	"is-registered": "Already have an account?",
+	"login": "Login",
+	"or-with": "or with",
+	"title": "Register",
+	"with-google": "Register with Google"
+}

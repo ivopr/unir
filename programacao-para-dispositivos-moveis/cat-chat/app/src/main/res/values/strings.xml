@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Cat.Chat</string>
+    <string name="title_enter_chat">Chat</string>
+    <string name="title_settings">Settings</string>
+    <string name="hint_chat_id">ID do chat</string>
+    <string name="button_enter_chat">Entrar</string>
+    <string name="button_sign_out">Desconectar</string>
+    <string name="settings_you_are_connected_as">Você está conectado(a) como</string>
+
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="action_settings">Settings</string>
+</resources>

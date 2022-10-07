@@ -1,0 +1,49 @@
+[System]
+Name='p6'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=9
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='temperatura'
+Range=[800 1200]
+NumMFs=3
+MF1='baixa':'trapmf',[0 800 900 1000]
+MF2='media':'trimf',[900 1000 1100]
+MF3='alta':'trapmf',[1000 1100 1200 1300]
+
+[Input2]
+Name='pressão'
+Range=[4 12]
+NumMFs=3
+MF1='baixa':'gaussmf',[2 4]
+MF2='media':'gaussmf',[1.3 8]
+MF3='alta':'gaussmf',[2.001 12]
+
+[Output1]
+Name='vazão'
+Range=[0 3]
+NumMFs=5
+MF1='baixa':'trapmf',[-1 0 0.5 1]
+MF2='media':'trimf',[1 1.5 2]
+MF3='media-alta':'trimf',[1.5 2 2.5]
+MF4='media-baixa':'trimf',[0.5 1 1.5]
+MF5='alta':'trapmf',[2 2.5 3 4]
+
+[Rules]
+1 1, 1 (1) : 1
+1 2, 4 (1) : 1
+1 3, 2 (1) : 1
+2 1, 4 (1) : 1
+2 2, 2 (1) : 1
+2 3, 3 (1) : 1
+3 1, 2 (1) : 1
+3 2, 3 (1) : 1
+3 3, 5 (1) : 1

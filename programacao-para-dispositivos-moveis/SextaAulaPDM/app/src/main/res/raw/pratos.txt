@@ -1,0 +1,9 @@
+Carne ao molho,fritas cogumelos carne magra,38.,carneassadamolho
+Contra File,fritas salada bife,38.,contrafilefritas
+Vegetariano,brocolis creme milho,40.,crememilhobrocolis
+File a cavalo,Alcatra ovo fritas salada,42.,filecavalo
+Frango grelhado,Frango arroz feijao pure,42.,frangogrelhado
+Frango fritas,frango ketchup fritas salada,40.,frangomacarrao
+Hamburguer fritas,hamburguer fritas salada,42.,hamburguerfritas
+Peixe fritas,peixei frito fritas salada arroz,45.,peixefritas
+Salmao light,salmao brocolis arroz,45.,salmaobrocolis

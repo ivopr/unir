@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1608406896 source:b:\git\unir\ed2\trabalhos\2nd\main.c
+	"bzinha.h"
+
+1608406932 b:\git\unir\ed2\trabalhos\2nd\bzinha.h
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+
+1608406389 source:b:\git\unir\ed2\trabalhos\2nd\bzinha.c
+	"bzinha.h"
+

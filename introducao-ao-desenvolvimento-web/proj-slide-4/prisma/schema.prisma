@@ -1,0 +1,81 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Cliente {
+  id String @id @default(uuid())
+  nome String
+  telefone String?
+  celular String?
+  email String @unique
+  idEndereco String
+
+  locacoes Locacao[]
+  endereco Endereco @relation(fields: [idEndereco], references: [id])
+
+  @@map(name: "cliente")
+}
+
+model Endereco {
+  id String @id @default(uuid())
+  cliente Cliente?
+  rua String
+  numero Int
+  bairro String
+  cidade String
+  estado String
+  cep String
+  complemento String
+
+  @@map(name: "endereco")
+}
+
+model Locacao {
+  id String @id @default(uuid())
+  idCliente String @map(name: "id_cliente")
+  cliente Cliente @relation(fields: [idCliente], references: [id])
+  idMidia String @map(name: "id_midia")
+  midia Midia @relation(fields: [idMidia], references: [id])
+  dataEmprestimo DateTime @default(now()) @map(name: "data_emprestimo")
+  dataDevolucao DateTime @map(name: "data_devolucao")
+
+  @@map(name: "locacao")
+}
+
+model Midia {
+  id String @id @default(uuid())
+  locacoes Locacao[]
+  idFilme String @map(name: "id_filme")
+  filme Filme @relation(fields: [idFilme], references: [id])
+
+  @@map(name: "midia")
+}
+
+model Filme {
+  id String @id @default(uuid())
+  nome String @unique
+  midias Midia[]
+  idCategoria String @map(name: "id_caregoria")
+  categoria Categoria @relation(fields: [idCategoria], references: [id])
+  descricao String
+  ano DateTime
+
+  @@map(name: "filme")
+}
+
+model Categoria {
+  id String @id @default(uuid())
+  filmes Filme[]
+  nome String @unique
+  descricao String
+
+  @@map(name: "categoria")
+}

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Amarelo</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="title_home">Bookings</string>
+    <string name="title_dashboard">Tickets</string>
+    <string name="title_notifications">Cities</string>
+</resources>

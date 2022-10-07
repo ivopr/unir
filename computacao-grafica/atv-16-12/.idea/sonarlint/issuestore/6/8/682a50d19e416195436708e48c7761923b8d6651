@@ -1,0 +1,43 @@
+
+“	cpp:S5276T"yimplicit conversion when assigning computation result loses floating-point precision: 'double' to 'GLfloat' (aka 'float')(ş¥ßüÿÿÿÿ
+@cpp:CommentedCodec"Remove the commented out code.(‚ú¹úüÿÿÿÿ
+“	cpp:S5276k"yimplicit conversion when assigning computation result loses floating-point precision: 'double' to 'GLfloat' (aka 'float')(×‡­õùÿÿÿÿ
+	cpp:S5276q"yimplicit conversion when assigning computation result loses floating-point precision: 'double' to 'GLfloat' (aka 'float')(…òÏÁ
+“	cpp:S5276w"yimplicit conversion when assigning computation result loses floating-point precision: 'double' to 'GLfloat' (aka 'float')(šÊ­Àÿÿÿÿÿ
+	cpp:S5276¸"yimplicit conversion when assigning computation result loses floating-point precision: 'double' to 'GLfloat' (aka 'float')(êßù
+	cpp:S5276Á"yimplicit conversion when assigning computation result loses floating-point precision: 'double' to 'GLfloat' (aka 'float')(ûğå
+	cpp:S5276Ê"yimplicit conversion when assigning computation result loses floating-point precision: 'double' to 'GLfloat' (aka 'float')(ïà§É
+6	cpp:S5421"!Global variables should be const.(èÏî
+]!cpp:SingleDeclarationPerStatement	"0Define each identifier in a dedicated statement.(…ß£
+b!cpp:SingleDeclarationPerStatement
+"0Define each identifier in a dedicated statement.(¤Æ¸»şÿÿÿÿ
+]!cpp:SingleDeclarationPerStatement"0Define each identifier in a dedicated statement.(¡âõğ
+;	cpp:S5421"!Global variables should be const.(÷Ö…»şÿÿÿÿ
+6	cpp:S5421"!Global variables should be const.(ˆÅã¢
+;	cpp:S5421"!Global variables should be const.(ùç–—ûÿÿÿÿ
+6	cpp:S5421	"!Global variables should be const.(…ß£
+6	cpp:S5421	"!Global variables should be const.(…ß£
+6	cpp:S5421	"!Global variables should be const.(…ß£
+;	cpp:S5421
+"!Global variables should be const.(¤Æ¸»şÿÿÿÿ
+;	cpp:S5421
+"!Global variables should be const.(¤Æ¸»şÿÿÿÿ
+;	cpp:S5421
+"!Global variables should be const.(¤Æ¸»şÿÿÿÿ
+6	cpp:S5421"!Global variables should be const.(¡âõğ
+6	cpp:S5421"!Global variables should be const.(¡âõğ
+?cpp:S106:"+Replace this usage of "printf" by a logger.(¼¸Â­
+m	cpp:S1172X"SRemove the unused parameter "x", make it unnamed, or declare it "[[maybe_unused]]".(¤™ç¾ÿÿÿÿÿ
+m	cpp:S1172X"SRemove the unused parameter "y", make it unnamed, or declare it "[[maybe_unused]]".(¤™ç¾ÿÿÿÿÿ
+P	cpp:S1199a"6Extract this nested code block into a separate method.(´ìñıùÿÿÿÿ
+P	cpp:S1199j"6Extract this nested code block into a separate method.(¨í„şÿÿÿÿ
+P	cpp:S1199p"6Extract this nested code block into a separate method.(üé‡›ùÿÿÿÿ
+P	cpp:S1199v"6Extract this nested code block into a separate method.(ó’Ì¿ùÿÿÿÿ
+P	cpp:S1199|"6Extract this nested code block into a separate method.(ÈÜÁÿÿÿÿÿ
+Q	cpp:S1199ˆ"6Extract this nested code block into a separate method.(ÕÎ–…øÿÿÿÿ
+L	cpp:S1199”"6Extract this nested code block into a separate method.(ş‹ƒ™
+Q	cpp:S1199 "6Extract this nested code block into a separate method.(ôâèäøÿÿÿÿ
+Q	cpp:S1199«"6Extract this nested code block into a separate method.(Î—­Šşÿÿÿÿ
+Ecpp:S106¬"+Replace this usage of "printf" by a logger.(ê¸Íúÿÿÿÿ
+i	cpp:S1172±"SRemove the unused parameter "x", make it unnamed, or declare it "[[maybe_unused]]".(–ğôŒ
+i	cpp:S1172±"SRemove the unused parameter "y", make it unnamed, or declare it "[[maybe_unused]]".(–ğôŒ

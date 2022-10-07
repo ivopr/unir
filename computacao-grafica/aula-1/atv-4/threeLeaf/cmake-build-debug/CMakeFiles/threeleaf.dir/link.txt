@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\threeleaf.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\threeleaf.dir/objects.a @CMakeFiles\threeleaf.dir\objects1.rsp
+C:\TDM-GCC-64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\threeleaf.dir/objects.a -Wl,--no-whole-archive -o threeleaf.exe -Wl,--out-implib,libthreeleaf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\threeleaf.dir\linklibs.rsp

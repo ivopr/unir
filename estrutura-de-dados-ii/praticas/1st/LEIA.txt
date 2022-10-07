@@ -1,0 +1,15 @@
+O ARUIVO grafo.txt tem a seguinte estrutura
+
+a primeira linha possui dois numeros
+x y
+
+x é o número de vértices, y é 0 ou 1, 0 se for um grafo não direcionado, 1 se for
+
+
+todas as linhas subsequentes são formadas por 3 números
+x y z
+
+x é o vertice origem, y é o vertice destino, e z é o peso
+
+
+o programa 1st.exe foi compilado como RELEASE x64

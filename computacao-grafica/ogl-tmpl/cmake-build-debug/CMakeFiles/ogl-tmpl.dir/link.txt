@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ogl-tmpl.dir/src/cpp/main.cpp.o CMakeFiles/ogl-tmpl.dir/src/cpp/tga_load.cpp.o -o ../src/textures/ogl-tmpl  -lglut -lGL -lGLU -lGLEW -lglfw 

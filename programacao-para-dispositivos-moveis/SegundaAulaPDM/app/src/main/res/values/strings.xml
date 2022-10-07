@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Segunda Aula PDM</string>
+
+    <string name="loginHeader">Acessar</string>
+    <string name="inputUsernameLabel">Nome de Usuário</string>
+    <string name="inputUsernamePlaceholder">João Aquino</string>
+    <string name="inputPasswordLabel">Senha</string>
+    <string name="inputPasswordPlaceholder">*****</string>
+    <string name="buttonLogin">Entrar</string>
+
+    <string name="dashboardHello">Olá, </string>
+    <string name="tableHeaderDate">Data</string>
+    <string name="tableHeaderDescription">Descrição</string>
+    <string name="tableHeaderValue">Valor</string>
+</resources>

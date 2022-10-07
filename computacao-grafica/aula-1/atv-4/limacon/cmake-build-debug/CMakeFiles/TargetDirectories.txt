@@ -1,0 +1,3 @@
+C:/Users/ivopr/Desktop/git/unir/cg/aula-1/atv-4/limacon/cmake-build-debug/CMakeFiles/limacon.dir
+C:/Users/ivopr/Desktop/git/unir/cg/aula-1/atv-4/limacon/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ivopr/Desktop/git/unir/cg/aula-1/atv-4/limacon/cmake-build-debug/CMakeFiles/rebuild_cache.dir

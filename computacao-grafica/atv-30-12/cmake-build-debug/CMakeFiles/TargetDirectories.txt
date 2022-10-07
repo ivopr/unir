@@ -1,0 +1,3 @@
+C:/Users/ivopr/Desktop/cg/atv-30-12/cmake-build-debug/CMakeFiles/atv_30_12.dir
+C:/Users/ivopr/Desktop/cg/atv-30-12/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ivopr/Desktop/cg/atv-30-12/cmake-build-debug/CMakeFiles/rebuild_cache.dir

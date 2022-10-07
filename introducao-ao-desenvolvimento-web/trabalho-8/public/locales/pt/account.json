@@ -1,0 +1,15 @@
+{
+	"actions": "Ações",
+	"email": "Email",
+	"logout": "Sair",
+	"modal": {
+		"name": "Nome",
+		"price": "Preço",
+		"quantity": "Quantidade",
+		"title": "Criar Produto",
+		"type": "Tipo"
+	},
+	"name": "Nome",
+	"role": "Cargo",
+	"welcome": "Bem vindo(a)"
+}

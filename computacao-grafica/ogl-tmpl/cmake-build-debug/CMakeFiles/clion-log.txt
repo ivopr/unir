@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/ivo/unir/cg/ogl-tmpl
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ivo/unir/cg/ogl-tmpl/cmake-build-debug

@@ -1,0 +1,15 @@
+{
+	"actions": "Actions",
+	"email": "Email",
+	"logout": "Logout",
+	"modal": {
+		"name": "Name",
+		"price": "Price",
+		"quantity": "Quantity",
+		"title": "Create Product",
+		"type": "Type"
+	},
+	"name": "Name",
+	"role": "Role",
+	"welcome": "Welcome"
+}
