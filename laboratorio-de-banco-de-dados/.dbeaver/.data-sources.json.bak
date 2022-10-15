@@ -6,14 +6,22 @@
 			"driver": "postgres-jdbc",
 			"name": "dblab",
 			"save-password": true,
+			"navigator-show-only-entities": true,
+			"navigator-hide-folders": true,
+			"navigator-hide-virtual": true,
 			"read-only": false,
 			"configuration": {
 				"host": "localhost",
 				"port": "5432",
-				"database": "dblab",
-				"url": "jdbc:postgresql://localhost:5432/dblab",
+				"database": "laboratorio",
+				"url": "jdbc:postgresql://localhost:5432/laboratorio",
+				"configurationType": "MANUAL",
 				"home": "/usr/bin",
-				"type": "dev",
+				"type": "test",
+				"properties": {
+					"connectTimeout": "20",
+					"loginTimeout": "20"
+				},
 				"provider-properties": {
 					"@dbeaver-show-non-default-db@": "true",
 					"@dbeaver-show-template-db@": "false",
@@ -26,18 +34,39 @@
 					"postgresql.dd.tag.string": "false"
 				},
 				"auth-model": "native",
-				"handlers": {}
+				"bootstrap": {
+					"defaultCatalog": "laboratorio"
+				}
+			},
+			"custom-properties": {
+				"SQLEditor.ContentAssistant.replace.word": "true",
+				"SQLEditor.format.keywordCaseAuto": "false"
+			}
+		}
+	},
+	"virtual-models": {
+		"postgres-jdbc-18366acd3fe-46800b3b63a50ce9": {
+			"laboratorio": {
+				"aula": {
+					":cliente": {
+						"properties": {
+							"erd.diagram.state": {
+								"serialized": "<diagram version=\"1\" name=\"empty\" time=\"202209221654\"><entities><data-source id=\"postgres-jdbc-18366acd3fe-46800b3b63a50ce9\"><entity id=\"1\" name=\"cliente\" fq-name=\"aula.cliente\" order=\"0\" color-bg=\"128,64,32\" x=\"16\" y=\"22\"><path name=\"aula\"/><path name=\"laboratorio\"/></entity></data-source></entities><relations/></diagram>"
+							}
+						}
+					}
+				}
 			}
 		}
 	},
 	"connection-types": {
-		"dev": {
-			"name": "Development",
-			"color": "255,255,255",
-			"description": "Regular development database",
+		"test": {
+			"name": "Test",
+			"color": "org.jkiss.dbeaver.color.connectionType.qa.background",
+			"description": "Test (QA) database",
 			"auto-commit": true,
 			"confirm-execute": false,
-			"confirm-data-change": false,
+			"confirm-data-change": true,
 			"auto-close-transactions": false
 		}
 	}

@@ -1,28 +1,37 @@
 # Questao 7
 
-function [i, x] = questao7(a, b, N, t)
-	F = @(x) x .^ 3 - 2 * x .^ 2 + 3 * x + 10; % função anonima
+F = @(x) x .^ 3 - 2 * x .^ 2 + 3 * x + 10; % função anonima
+exes = linspace(-10, 10);
+plot(exes, F(exes));
+hold on
+[x] = bissecao(F, 2, 3, 20, 1e-3);
+plot(x, F(x), "o");
+hold off
 
-	exes = linspace(-10, 10);
-	plot(exes, F(exes));
+printf("a = 2 | b = 3 | Tol = 1e^-3\n");
+printf("F = x .^ 3 - 2 * x .^ 2 + 3 * x + 10\n\n");
 
-	i = 0;
-	for i = 0 : N
-		x = (a + b) / 2;
-		fx = F(x);
-		fa = F(a);
+printf("--- IT 1 ---\n");
+printf("F(a) = 2 .^ 3 - 2 * 2 .^ 2 + 3 * 2 + 10 = 16\n");
+printf("F(b) = 3 .^ 3 - 2 * 3 .^ 2 + 3 * 3 + 10 = 28\n\n");
 
-		if(fx == 0 || (b - a) / 2 <= t)
-			printf("Iteração %d\nX = %f\n", i + 1, x);
-			return
-		else
-			if(fa * fx < 0)
-				b = x;
-			else
-				a = x;
-			endif
-		endif
-	endfor
+printf("x = (2 + 3) / 2 = 2.5\n");
+printf("F(x) = 2.5 .^ 3 - 2 * 2.5 .^ 2 + 3 * 2.5 + 10 = 20.625\n\n");
 
-	printf("Método falhou em %d iterações\n", i + 1);
-endfunction
+printf("F(x) > 0 e (b - a) / 2 > Tol\n");
+printf("F(a) * F(x) = 320 e 320 > 0\n");
+printf("a = 2.5 | b = 3\n");
+
+printf("--- Fim IT 1 ---\n\n")
+
+printf("--- IT 2 ---\n");
+printf("F(a) = F(x) = 20.625\n");
+printf("F(b) = 28\n\n");
+
+printf("x = (a + b) / 2 = 2.75\n");
+printf("F(x) = 2.75 .^ 3 - 2 * 2.75 .^ 2 + 3 * 2.75 + 10 = 23.922\n\n");
+
+printf("F(x) > 0 e (b - a) / 2 > Tol\n");
+printf("F(a) * F(x) = 492.39 e 492.39 > 0\n");
+printf("a = 2.75 e b = 3\n");
+printf("-- Fim IT 2 ---\n");

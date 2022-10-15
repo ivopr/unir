@@ -5,3 +5,5 @@ INSERT INTO aula.cliente(id_cliente, nome, cpf) VALUES (22, 'Maria', '1111111111
 INSERT INTO aula.cliente(id_cliente, nome, cpf) VALUES (22, 'João', '22222222222');
 INSERT INTO aula.cliente(id_cliente, nome, cpf) VALUES (33, 'Bruno', '33333333333');
 INSERT INTO aula.cliente(id_cliente, nome, cpf) VALUES (44, 'Francisco', '44444444444');
+INSERT INTO aula.cliente(id_cliente, nome, cpf) VALUES (55, 'Andre', '55555555555');
+INSERT INTO aula.cliente(id_cliente, nome, cpf) VALUES (66, 'Marcos', '66666666666');

@@ -15,8 +15,13 @@
 				"port": "5432",
 				"database": "laboratorio",
 				"url": "jdbc:postgresql://localhost:5432/laboratorio",
+				"configurationType": "MANUAL",
 				"home": "/usr/bin",
 				"type": "dev",
+				"properties": {
+					"connectTimeout": "20",
+					"loginTimeout": "20"
+				},
 				"provider-properties": {
 					"@dbeaver-show-non-default-db@": "true",
 					"@dbeaver-show-template-db@": "false",
@@ -28,7 +33,11 @@
 					"postgresql.dd.plain.string": "false",
 					"postgresql.dd.tag.string": "false"
 				},
-				"auth-model": "native"
+				"auth-model": "native",
+				"handlers": {},
+				"bootstrap": {
+					"defaultCatalog": "laboratorio"
+				}
 			},
 			"custom-properties": {
 				"SQLEditor.ContentAssistant.replace.word": "true",
@@ -45,8 +54,7 @@
 							"erd.diagram.state": {
 								"serialized": "<diagram version=\"1\" name=\"empty\" time=\"202209221654\"><entities><data-source id=\"postgres-jdbc-18366acd3fe-46800b3b63a50ce9\"><entity id=\"1\" name=\"cliente\" fq-name=\"aula.cliente\" order=\"0\" color-bg=\"128,64,32\" x=\"16\" y=\"22\"><path name=\"aula\"/><path name=\"laboratorio\"/></entity></data-source></entities><relations/></diagram>"
 							}
-						},
-						"constraints": {}
+						}
 					}
 				}
 			}
