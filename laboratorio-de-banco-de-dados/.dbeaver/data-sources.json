@@ -15,7 +15,6 @@
 				"port": "5432",
 				"database": "laboratorio",
 				"url": "jdbc:postgresql://localhost:5432/laboratorio",
-				"configurationType": "MANUAL",
 				"home": "/usr/bin",
 				"type": "dev",
 				"properties": {
@@ -34,7 +33,6 @@
 					"postgresql.dd.tag.string": "false"
 				},
 				"auth-model": "native",
-				"handlers": {},
 				"bootstrap": {
 					"defaultCatalog": "laboratorio"
 				}
