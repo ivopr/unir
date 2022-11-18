@@ -1,5 +1,12 @@
 # Questao 7
-
+%{
+Aplique o método da bisseção à equação 𝑥 . Construa o
+3 − 2𝑥
+2
++ 3𝑥 + 10 = 0
+gráfico da função e faça a análise da variação de sinal para auxiliar na escolha do
+intervalo [a, b].
+%}
 F = @(x) x .^ 3 - 2 * x .^ 2 + 3 * x + 10; % função anonima
 exes = linspace(-10, 10);
 plot(exes, F(exes));

@@ -1,3 +1,6 @@
+# Qual o resultado esperado para as matrizes C, D e E?
+# Tente descobrir os resultados antes de executá-las no Octave.
+
 A = [1 2; 3 4];
 B = [1 1; 2 2];
 

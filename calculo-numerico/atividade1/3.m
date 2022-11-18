@@ -1,3 +1,15 @@
+# Construa no Octave a matriz quadrada A de ordem n, tal que aij = i + j. Construa
+# cada uma das matrizes descritas abaixo.
+
+# a. B é a matriz que contém apenas as linhas pares de A;
+# b. C é a matriz que contém apenas as colunas ímpares de A.
+# c. D é uma submatriz quadrada de ordem k formada apenas pelas primeiras k
+# linhas e colunas de A (a matriz quadrada de ordem k que fica no “canto
+# superior” de A).
+# d. E é formada a partir de A retirando-se uma borda de largura k, ou seja, sem
+# as primeiras e últimas k linhas e colunas.
+
+
 n = 4;
 
 A = zeros(n);

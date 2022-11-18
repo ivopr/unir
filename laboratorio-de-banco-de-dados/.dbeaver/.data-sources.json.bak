@@ -12,10 +12,9 @@
 			"read-only": false,
 			"configuration": {
 				"host": "localhost",
-				"port": "5432",
+				"port": "65432",
 				"database": "laboratorio",
-				"url": "jdbc:postgresql://localhost:5432/laboratorio",
-				"configurationType": "MANUAL",
+				"url": "jdbc:postgresql://localhost:65432/laboratorio",
 				"home": "/usr/bin",
 				"type": "dev",
 				"properties": {
@@ -34,14 +33,14 @@
 					"postgresql.dd.tag.string": "false"
 				},
 				"auth-model": "native",
-				"handlers": {},
 				"bootstrap": {
 					"defaultCatalog": "laboratorio"
 				}
 			},
 			"custom-properties": {
 				"SQLEditor.ContentAssistant.replace.word": "true",
-				"SQLEditor.format.keywordCaseAuto": "false"
+				"SQLEditor.format.keywordCaseAuto": "false",
+				"resultset.datetime.editor": "false"
 			}
 		}
 	},
@@ -52,7 +51,7 @@
 					":cliente": {
 						"properties": {
 							"erd.diagram.state": {
-								"serialized": "<diagram version=\"1\" name=\"empty\" time=\"202209221654\"><entities><data-source id=\"postgres-jdbc-18366acd3fe-46800b3b63a50ce9\"><entity id=\"1\" name=\"cliente\" fq-name=\"aula.cliente\" order=\"0\" color-bg=\"128,64,32\" x=\"16\" y=\"22\"><path name=\"aula\"/><path name=\"laboratorio\"/></entity></data-source></entities><relations/></diagram>"
+								"serialized": "\u003cdiagram version\u003d\"1\" name\u003d\"empty\" time\u003d\"202209221654\"\u003e\u003centities\u003e\u003cdata-source id\u003d\"postgres-jdbc-18366acd3fe-46800b3b63a50ce9\"\u003e\u003centity id\u003d\"1\" name\u003d\"cliente\" fq-name\u003d\"aula.cliente\" order\u003d\"0\" color-bg\u003d\"128,64,32\" x\u003d\"16\" y\u003d\"22\"\u003e\u003cpath name\u003d\"aula\"/\u003e\u003cpath name\u003d\"laboratorio\"/\u003e\u003c/entity\u003e\u003c/data-source\u003e\u003c/entities\u003e\u003crelations/\u003e\u003c/diagram\u003e"
 							}
 						}
 					}

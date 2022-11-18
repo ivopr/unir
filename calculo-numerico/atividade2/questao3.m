@@ -1,5 +1,10 @@
 # Questão 3
-
+# Escreva um programa em Octave para obter o resultado da seguinte operação:
+# 𝑆 = 10000 −
+# 𝑘 = 1
+# 𝑛
+# ∑ 𝑥
+# para: a) n = 100000 e x = 0,1; b) n = 80000 e x = 0,125;
 ## Letra A
 x = 0.1;
 xNext = x;

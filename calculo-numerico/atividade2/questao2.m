@@ -1,5 +1,18 @@
 # Questão 2
-
+# Considere uma máquina cujo sistema de representação é definido por: 𝛃 = 10, t =
+# 4, m = -5 e M = 5. Pede-se:
+# a. Qual o menor e o maior número em módulo representados nesta máquina?
+# b. Como será representado o número 73,758 nesta máquina, se for usado o
+# arredondamento? E se for usado truncamento?
+# c. Se a = 42450 e b = 3 qual o resultado de a + b?
+# d. Nesta máquina, qual o resultado da soma: 𝑆 = 42450 +
+# 𝑘 = 1
+# 10
+# ∑ 3
+# e. Nesta máquina, qual o resultado da soma: 𝑆 =
+# 𝑘 = 1
+# 10
+# ∑ 3 + 42450
 printf("Letra A)\nMenor = 0.1000 . 10^-5\nMaior = 0.9999 . 10^5\n")
 
 arredondamento = 0.7376; % arredonda do 8

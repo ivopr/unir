@@ -1,0 +1,44 @@
+Regiao
+  id_regiao
+  sigla
+
+Estado
+  id_estado
+  sigla
+  regiao_id
+
+Municipio
+  id_municipio
+  nome
+  estado_id
+
+Revenda
+  id_revenda
+  nome
+  cnpj
+  bandeira
+  cep
+  numero
+  municipio_id
+  complemento
+  bairro_id
+  rua_id
+
+Produto
+  id_produto
+  nome
+
+Bandeira
+  id_bandeira
+  nome
+
+Medida
+  id_medida
+  unidade
+
+Registro
+  revenda_id
+  produto_id
+  valor_de_compra
+  valor_de_venda
+  data_de_coleta

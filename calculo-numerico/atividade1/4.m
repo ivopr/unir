@@ -1,3 +1,5 @@
+# Faça os gráficos das seguintes funções, nos intervalos prescritos.
+
 subplot (3, 1, 1)
 fplot(@(x)-3*x.^3 +7*x.^2 - 5,[0 2]);
 

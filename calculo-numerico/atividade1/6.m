@@ -1,3 +1,5 @@
+# Converta os seguintes números decimais para sua forma binária:
+
 a = 37;
 b = 2345;
 c = 0.1217;

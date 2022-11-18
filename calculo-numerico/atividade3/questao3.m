@@ -1,3 +1,11 @@
+%{
+Utilize o método da Iteração do Ponto Fixo para encontrar a raiz positiva
+da equação abaixo com três algarismos significativos, ou seja, tal que
+𝐸𝑟 < 10 . Resolva manualmente até 2 iterações. −3
+a. 𝑓(𝑥) = 𝑥
+3 − 5𝑥 − 5
+%}
+
 # func = @(x) x^3 -5 * x - 5;
 # g = @(x) sqrt(6 - x);
 # er = 1e-3;

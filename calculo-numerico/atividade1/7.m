@@ -1,3 +1,5 @@
+# Converta os seguintes números binários para sua forma decimal:
+
 a = [1 0 1 1 0 1];
 b = [1 1 0 1 1 0 1 1];
 c = [0 1 1 0 1];

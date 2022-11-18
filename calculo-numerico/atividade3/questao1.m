@@ -1,3 +1,15 @@
+%{
+A partir da equação f(x) = 0, obtenha a equação equivalente g(x) = h(x),
+esboce os gráficos das funções f(x) e h(x) no mesmo eixo cartesiano e
+localize os pontos x onde as duas curvas se interceptam, pois neste caso
+f(𝜉) = 0 ⇔ g(𝜉) = h(𝜉). Use o Octave.
+a. 𝑓(𝑥) = 𝑥 − 5
+𝑥
+b. 𝑓(𝑥) = 2𝑥
+2
++ 4𝑥 − 6
+%}
+
 # A
 funcA = @(x) sqrt(x) - 5 .^ x;
 gA = @(x) sqrt(x);

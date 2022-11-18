@@ -1,3 +1,13 @@
+%{
+Utilize o método da Falsa Posição para encontrar a raiz positiva da
+equação abaixo com três algarismos significativos, ou seja, tal que
+𝐸𝑟 < 10 . Resolva manualmente até 2 iterações. −3
+a. 𝑓(𝑥) =
+𝑥
+2
+5 − 2𝑥 − 3
+%}
+
 # func = @(x) (x.^2 / 5) - 2 * x - 3;
 # pos = [9, 10]; [a, b]
 # p = 1e-3;
