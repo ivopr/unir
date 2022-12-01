@@ -15,7 +15,7 @@
 				"port": "65432",
 				"database": "laboratorio",
 				"url": "jdbc:postgresql://localhost:65432/laboratorio",
-				"home": "/usr/bin",
+				"home": "postgresql_client",
 				"type": "dev",
 				"properties": {
 					"connectTimeout": "20",

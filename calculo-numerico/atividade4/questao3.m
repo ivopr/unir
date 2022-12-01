@@ -45,3 +45,7 @@ function [x k] = questao3(F, J, x, tols, kMax)
     Fx = F(x);
   endwhile
 end
+
+
+# F = @(x) [ x(1)^2+8*x(2)+16; -3*x(1)^2+12*x(2)+48 ];
+# J = @(x) [ 2*x(1)+8; -6*x(1)+12 ];
