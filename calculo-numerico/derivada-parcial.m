@@ -5,13 +5,13 @@ pkg load symbolic
 syms x y;
 
 # definindo a função
-f = x^2 - 4*x + 4*y;
+f1 = -x + y^2;
+f2 = x^2+5*y^2-6;
 
-# derivando a função f em relação a x
-diff(f, x)
 
-# derivando a função f em relação a x
-diff(f, y)
 
-matlabFunction(diff(f, x))
-matlabFunction(diff(f, y))
+matlabFunction(diff(f1, x))
+matlabFunction(diff(f1, y))
+
+matlabFunction(diff(f2, x))
+matlabFunction(diff(f2, y))

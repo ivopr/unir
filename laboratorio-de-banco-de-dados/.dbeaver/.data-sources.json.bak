@@ -6,16 +6,14 @@
 			"driver": "postgres-jdbc",
 			"name": "dblab",
 			"save-password": true,
-			"navigator-show-only-entities": true,
-			"navigator-hide-folders": true,
-			"navigator-hide-virtual": true,
+			"show-system-objects": true,
 			"read-only": false,
 			"configuration": {
 				"host": "localhost",
 				"port": "65432",
 				"database": "laboratorio",
 				"url": "jdbc:postgresql://localhost:65432/laboratorio",
-				"home": "/usr/bin",
+				"home": "postgresql_client",
 				"type": "dev",
 				"properties": {
 					"connectTimeout": "20",
