@@ -1,0 +1,21 @@
+Circuit: * Z:\home\ivopr\git\unir\transmissao-de-dados\Draft1.asc
+
+.OP point found by inspection.
+
+Date: Tue Mar 28 10:06:21 2023
+Total elapsed time: 39.861 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 15123452
+traniter = 15123452
+tranpoints = 7561727
+accept = 5041153
+rejected = 2520574
+matrix size = 3
+fillins = 0
+solver = Normal
+Matrix Compiler1: 50 bytes object code size  0.2/0.2/[0.2]
+Matrix Compiler2: 175 bytes object code size  0.2/0.2/[0.2]
+
